@@ -1,3 +1,4 @@
-function sayHello() {
-  alert('Hola a todos otra vez!')
+function displayDate() {
+  const date = new Date();
+  alert('Hoy es ' + date)
 }
