@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.logo {
+  height: 150px;
+}
+
+.search-bar {
+  width: 500px;
+  background-color: #ccc;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-bar button, .search-bar input {
+  font-size: 20px;
+}
+
+.movies {
+  margin: auto;
+  width: 500px;
+}
+
+.movie-box {
+  background-color: rgb(215, 208, 208);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.movie-box .details .title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.movie-box .details .overview {
+  padding-top: 4px;
+}
+
