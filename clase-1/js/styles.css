@@ -20,3 +20,8 @@ button {
   margin-top: 20px;
   padding: 10px;
 }
+
+.btn {
+  background-color: #af2222;  
+  margin-top: 42px;
+}
