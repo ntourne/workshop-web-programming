@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.logo {
+  height: 150px;
+}
+
+.videos {
+  margin: auto;
+  width: 500px;
+}
+
+.video-box {
+  height: 200px;
+  background-color: rgb(215, 208, 208);
+  padding: 10px 10px 10px 0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.video-box .thumbnail {
+  width: 50%;
+  float: left;
+}
+
+.video-box .details {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.video-box .details .title {
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.video-box .details .user-name {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
