@@ -1,4 +1,6 @@
 function displayDate() {
-  const date = new Date();
-  alert('Hoy es ' + date)
+  var today = "Lunes";
+  alert("Hoy es " + today);
 }
+
+document.getElementById("btn-date").addEventListener("click", displayDate);
